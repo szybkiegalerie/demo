@@ -522,7 +522,7 @@ h6 {
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
-  .navbar li:hover > a {
+  .navbar li:hover>a {
     color: #fff;
   }
 
@@ -536,8 +536,8 @@ h6 {
     border: 1px solid black;
   }
 
-  .navbar .dropdown > .dropdown-active,
-  .navbar .dropdown .dropdown > .dropdown-active {
+  .navbar .dropdown>.dropdown-active,
+  .navbar .dropdown .dropdown>.dropdown-active {
     display: block;
   }
 
@@ -579,7 +579,6 @@ h6 {
     z-index: 9996;
   }
 }
-
 
 /*--------------------------------------------------------------
 # About Section
